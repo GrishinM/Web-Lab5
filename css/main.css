@@ -1,0 +1,121 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom right, #fafa1e, white);
+}
+
+footer {
+    background: lightgrey;
+}
+
+header,
+main,
+footer {
+    padding: 30px 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+}
+
+.profile-info {
+    margin-left: 30px;
+}
+
+.block {
+    background: lightgoldenrodyellow;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.subtitle {
+    margin-bottom: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skills {
+    float: left;
+}
+
+.code-example {
+    float: right;
+}
+
+dt {
+    font-weight: 600;
+}
+
+dd {
+    margin-left: 20px;
+    font-style: italic;
+}
+
+code {
+    display: block;
+    padding: 15px;
+    font-size: 90%;
+    line-height: 1.5;
+    background: #f6f8fa;
+    border-radius: 8px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 130%;
+}
+
+.vk {
+    content: url("../images/vk.png");
+}
+
+.github {
+    content: url("../images/github.png");
+}
+
+.email {
+    content: url("../images/email.png");
+}
+
+.vk,
+.github,
+.email {
+    width: 50px;
+    display: block;
+}
