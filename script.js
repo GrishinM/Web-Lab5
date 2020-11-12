@@ -36,7 +36,7 @@ function mid(arr) {
     let len = arr.length
     let sorted = quickSort(arr)
     if (len % 2 == 1)
-        return sorted[len / 2]
+        return sorted[(len - 1) / 2]
     else
         return 0.5 * (sorted[len / 2 - 1] + sorted[len / 2])
 }
